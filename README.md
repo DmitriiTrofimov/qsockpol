@@ -6,7 +6,8 @@ Using example
 Just add to .pro file next following
   QT       += network
 
->> main.cpp
+main.cpp
+```
 
 #include <QCoreApplication>
 #include <QScopedPointer>
@@ -19,4 +20,4 @@ int main(int argc, char *argv[])
     return a.exec();
 }
 
-<<
+```
